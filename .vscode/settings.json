@@ -1,0 +1,7 @@
+{
+	"files.associations": {
+		"*.c": "c",
+		"type_traits": "c",
+		"binary_trees.h": "c"
+	}
+}
