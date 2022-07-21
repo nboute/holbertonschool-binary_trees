@@ -53,6 +53,6 @@ void	binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
 	size_t	i, height;
 
 	height = tree_height(tree);
-	for (i = 0; i < height; i++)
+	for (i = 0; i <= height; i++)
 		tree_traversal_levelorder(tree, func, i);
 }
