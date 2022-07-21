@@ -6,6 +6,7 @@
  * using levelorder traversal
  * @tree: Pointer to tree
  * @func: Function pointer to use with a node's value
+ * @level: Lever to start applying function to
  */
 void tree_traversal_levelorder(const binary_tree_t *tree, void (*func)(int),
 	size_t level)
