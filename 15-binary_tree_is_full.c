@@ -2,7 +2,7 @@
 
 
 /**
- * binary_tree_full - Tells if a binary tree is full
+ * binary_tree_is_full - Tells if a binary tree is full
  * @tree: Pointer to tree
  * Return: 1 if full, 0 if not
  */
